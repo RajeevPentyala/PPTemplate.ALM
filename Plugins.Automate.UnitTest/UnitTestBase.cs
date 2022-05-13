@@ -51,7 +51,7 @@ namespace PPTemplateALMPlugins.UnitTest
             this.Service = new StubIOrganizationService();
 
             this.PluginExecutionContext = new StubIPluginExecutionContext();
-
+            
             this.WorkflowContext = new StubIWorkflowContext();
 
             this.Factory = new StubIOrganizationServiceFactory

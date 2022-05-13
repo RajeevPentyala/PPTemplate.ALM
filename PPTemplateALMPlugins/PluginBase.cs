@@ -225,7 +225,7 @@ namespace PPTemplate.ALM.PPTemplateALMPlugins
 
             var context = (IExecutionContext)serviceProvider.GetService(typeof(IExecutionContext));
 
-            DateTime initialTimestamp = context.OperationCreatedOn;
+            DateTime initialTimestamp = DateTime.Now;//context.OperationCreatedOn;
 
             if (initialTimestamp > utcNow)
             {
